@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>home</title>
+       <link rel="icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+   <style>
+    * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: "jost", sans-serif;
+        }
+
+        .h-col1 h1 {
+            font-size: 40px;
+            letter-spacing: 4px;
+            font-weight: bold;
+            text-align: left;
+
+        }
+
+        .h-col1 p {
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+
+        .color {
+
+            background: #37517e;
+            color: white;
+            padding: 0% 15% 0% 15%;
+
+        }
+
+        .home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+position: sticky;
+top:0%;
+background:rgba(3, 53, 161, 0.834), transparent(30%);
+        }
+
+        #main {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        #header-col2 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+            flex: 1;
+        }
+
+        #main a {
+            text-decoration: none;
+            color: white;
+            /* or your preferred color */
+            font-weight: 500;
+        }
+.button{
+
+         padding: 10px;
+    border-radius: 15px;
+    background:rgb(12, 157, 235);
+    border-color:rgb(12, 157, 235) ;
+    color: white;
+     text-decoration: none;
+       
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 20px;
+}
+.watch{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+   </style>
+</head>
+<body>
+    <div class="color">
+        <div id="header-row">
+            <div id="header-col1">
+                <h1>ARSHA</h1>
+            </div>
+            <div id="header-col2">
+                <nav id="main">
+
+                    <a href="#Home" class="header-nav">Home</a>
+                    <a href="#About" class="header-nav">About</a>
+                    <a href="#Services" class="header-nav">Service</a>
+                    <a href="#Team" class="Header-nav">Team</a>
+                    <a href="#Portfolio" class="header-nav">Portfolio</a>
+                    <a href="#Pricing" class="Header-nav">Pricing</a>
+                    <a href="#Blog" class="Header-nav">Blog</a>
+                    <a href="#Dropdown" class="Header-nav">Dropdown</a>
+                    <a href="#Contact" class="Header-nav">Contact</a>
+
+                </nav>
+          
+         
+                <a href="#About" class="button">get started</a>
+                </div>
+          
+        </div>
+        <section id="Home">
+            <div class="home">
+                <div class="h-col1">
+                    <h1>Better Solutions For Your Business</h1>
+                    <p>We are team of talented designers making websites with Bootstrap</p>
+                    <div class="btn">
+                   <a href="#About" class="button" >get started</a>
+                    <a href="#"  class="watch"><i class="bi bi-play-circle"></i>Watch</a>
+                    </div>
+                </div>
+                <div class="h-col2">
+                    <img src="photo/hero-img.png">
+                </div>
+            </div>
+        </section>
+    </div>
+    </body>
+    </html>
